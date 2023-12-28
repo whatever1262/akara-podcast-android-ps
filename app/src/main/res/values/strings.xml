@@ -30,7 +30,8 @@
     <string name="Playlist">Playlist</string>
     <string name="up_2_day_ago">up 2 day ago</string>
     <string name="new_episodes">new_episodes</string>
-    <string name="recent">recent</string>
+    <string name="recent">Recently Trending</string>
+    <string name="weekly_recently">Weekly </string>
     <string name="all">all</string>
     <string name="artists">artists</string>
     <string name="albums">albums</string>
