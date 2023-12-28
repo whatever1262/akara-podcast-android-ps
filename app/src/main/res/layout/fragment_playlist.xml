@@ -88,7 +88,7 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="@string/Playlist"
-                            android:textColor="#000" />
+                            android:textColor="@color/text_primary" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -103,7 +103,7 @@
                             android:layout_height="match_parent"
                             android:text="@string/podcasts"
                             android:gravity="center"
-                            android:textColor="#000"/>
+                            android:textColor="@color/text_primary"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -118,7 +118,7 @@
                             android:layout_height="match_parent"
                             android:text="@string/albums"
                             android:gravity="center"
-                            android:textColor="#000"/>
+                            android:textColor="@color/text_primary"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -133,7 +133,7 @@
                             android:layout_height="match_parent"
                             android:text="@string/artists"
                             android:gravity="center"
-                            android:textColor="#000"/>
+                            android:textColor="@color/text_primary"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -148,7 +148,7 @@
                             android:layout_height="match_parent"
                             android:text="@string/all"
                             android:gravity="center"
-                            android:textColor="#000"/>
+                            android:textColor="@color/text_primary"/>
                     </LinearLayout>
 
                 </LinearLayout>

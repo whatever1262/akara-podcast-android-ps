@@ -88,13 +88,12 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNav"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="76dp"
         android:background="@color/bg_nav_primary"
         app:itemIconSize="48dp"
+        app:itemTextColor="@color/text_primary"
         app:itemIconTint="@color/akara_primary"
         app:itemRippleColor="@color/akara_primary"
-        app:itemTextAppearanceActive="@style/BottomNavigationViewTextStyle"
-        app:itemTextAppearanceInactive="@style/BottomNavigationViewTextStyle"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/main_activity" />
 

@@ -2,20 +2,16 @@ package com.example.akarapodcast.view.activity
 
 import android.media.MediaPlayer
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
-import androidx.navigation.findNavController
-import androidx.navigation.fragment.findNavController
 import com.example.akarapodcast.R
-import com.example.akarapodcast.view.fragment.HomeFragment
 import com.example.akarapodcast.databinding.ActivityMainBinding
 import com.example.akarapodcast.databinding.FragmentDiscoverBinding
 import com.example.akarapodcast.databinding.FragmentPodcastDetailedBinding
 import com.example.akarapodcast.model.api.model.entities.Podcast
 import com.example.akarapodcast.other.OnDataPass
-import com.example.akarapodcast.view.fragment.FavoriteFragment
+import com.example.akarapodcast.view.fragment.HomeFragment
 import com.example.akarapodcast.view.fragment.PlaylistFragment
 import com.example.akarapodcast.view.fragment.PodcastFragment
 import com.example.akarapodcast.view.fragment.SearchFragment
@@ -44,7 +40,7 @@ class MainActivity : AppCompatActivity(), OnDataPass {
                 R.id.menuHome -> showFragment(HomeFragment())
                 R.id.menuTrending -> showFragment(TrendingFragment())
                 R.id.menuSearch -> showFragment(SearchFragment())
-                R.id.menuFav -> showFragment(FavoriteFragment())
+//                R.id.menuFav -> showFragment(FavoriteFragment())
                 R.id.menuPlaylist -> showFragment(PlaylistFragment())
             }
 

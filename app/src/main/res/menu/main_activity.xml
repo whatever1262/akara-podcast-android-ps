@@ -13,10 +13,10 @@
         android:id="@+id/menuSearch"
         android:icon="@drawable/ic_search_foreground"
         android:title="@string/search" />
-    <item
-        android:id="@+id/menuFav"
-        android:icon="@drawable/ic_fav_foreground"
-        android:title="@string/favorite" />
+<!--    <item-->
+<!--        android:id="@+id/menuFav"-->
+<!--        android:icon="@drawable/ic_fav_foreground"-->
+<!--        android:title="@string/favorite" />-->
     <item
         android:id="@+id/menuPlaylist"
         android:icon="@drawable/ic_playlist_foreground"
